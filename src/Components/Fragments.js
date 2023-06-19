@@ -11,3 +11,6 @@ function Fragments(props) {
 }
 
 export default Fragments;
+
+// When we use <div> as a returning block all the tags inside it are considered as single entity
+// when we use <> as a returning block all the tags inside will be considered as different entities
