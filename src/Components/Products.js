@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 function Products(props) {
   useEffect(() => {
-    console.log("useeffect called");
+    console.log("useeffect called only for data values");
   }, [props.data]);
   return (
     <div>

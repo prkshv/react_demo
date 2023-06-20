@@ -17,6 +17,8 @@ import PropsClasscomp from "./Components/PropsClasscomp";
 import PropsinFunctioncomp from "./Components/PropsinFunctioncomp";
 import States from "./Components/States";
 import StatesinClasscomp from "./Components/StatesinClasscomp";
+import UseContexthooks from "./Components/UseContexthooks";
+import UseMemoHooks from "./Components/UseMemoHooks";
 import Useeffects from "./Components/Useeffects";
 import User from "./Components/User";
 import { UserClassComp } from "./Components/UserClasscomp";
@@ -52,7 +54,9 @@ function App() {
       {/* <Classcomponentlifecycle /> */}
       {/* <Willunmounts /> */}
       {/* <Useeffects /> */}
-      <Fragments />
+      {/* <Fragments /> */}
+      {/* <UseMemoHooks /> */}
+      <UseContexthooks />
     </div>
   );
 }

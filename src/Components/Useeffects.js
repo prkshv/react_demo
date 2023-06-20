@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import Products from "./Products";
 
 function Useeffects(props) {
@@ -26,3 +26,11 @@ function Useeffects(props) {
 }
 
 export default Useeffects;
+
+// shouldComponentUpdate
+// getSnapshotBeforeUpdate
+// componentDidUpdate
+// componentDidMount
+
+// memo value
+// callback function
