@@ -1,0 +1,76 @@
+Keys: iterable object
+keys method doesn't change the original array
+
+keys calls the index of array
+map calls the value of the array
+
+javascript is a object
+
+npm: node package manager
+used for react libraries installation
+
+7th June 2023
+
+react js is an open source library
+
+framework: provides additional features
+libraries: packages of some function which we can use to build UI
+
+React js is used for frontend only
+it doesn't need an API to work
+
+Component based structure: one page is considered as one Component
+single page application: perform actions without reloading the entire page
+
+npm list react
+
+npx: node package runner: installs packages only for that directory
+npm: globally installs the package
+
+node_modules: list of all packages
+folder that maintain packages library. set of packages to develop that project
+
+public folder:
+index.html: template file which is served
+
+manifest.json:
+helps in mobile app to use web application
+data is in json format
+
+robots.txt:
+for browser usage. for browser limitations
+
+life cycle:
+development
+testing
+production
+deployment
+
+no changes in public folder
+
+app.css:
+styles of react Components
+
+app.js:
+basic react Component which can be replaced by our Component
+most changes are done in app.js file
+
+app.test.js:
+used for testing purpose
+
+index.css:
+global style file
+
+reportwebvitals.js:
+for performance
+
+setuptest.js: testing file
+
+.gitignore:
+if uploaded on git, specifies the list of folder which we want to ignore from uploading
+
+package.json:
+all the packages which are used in creating project.
+If new package installed. it is stored in this file
+
+subpackages needed to develop the main package mentioned in package.json

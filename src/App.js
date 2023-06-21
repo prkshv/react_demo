@@ -17,11 +17,15 @@ import PropsClasscomp from "./Components/PropsClasscomp";
 import PropsinFunctioncomp from "./Components/PropsinFunctioncomp";
 import States from "./Components/States";
 import StatesinClasscomp from "./Components/StatesinClasscomp";
+import TodoList from "./Components/TodoList";
 import UseContexthooks from "./Components/UseContexthooks";
 import UseMemoHooks from "./Components/UseMemoHooks";
+import UseReducerhooks from "./Components/UseReducerhooks";
 import Useeffects from "./Components/Useeffects";
 import User from "./Components/User";
 import { UserClassComp } from "./Components/UserClasscomp";
+import Usereducer from "./Components/Usereducer";
+import Usereference from "./Components/Usereference";
 import Willunmounts from "./Components/Willunmounts";
 import NavScrollExample from "./Components/navbar/Navbars";
 function App() {
@@ -56,7 +60,11 @@ function App() {
       {/* <Useeffects /> */}
       {/* <Fragments /> */}
       {/* <UseMemoHooks /> */}
-      <UseContexthooks />
+      {/* <UseContexthooks /> */}
+      {/* <TodoList /> */}
+      {/* <UseReducerhooks /> */}
+      {/* <Usereducer /> */}
+      <Usereference />
     </div>
   );
 }
