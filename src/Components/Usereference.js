@@ -23,3 +23,7 @@ function Usereference(props) {
 }
 
 export default Usereference;
+
+// keeps the value between renders
+// used to store mutable value that does not cause rerender when updated
+// directly access the dom Element

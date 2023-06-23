@@ -12,12 +12,15 @@ import Fragments from "./Components/Fragments";
 import Getinputvalue from "./Components/Getinputvalue";
 import Hello from "./Components/Hello";
 import Hideshowtoggle from "./Components/Hide&show&toggle";
+import Home from "./Components/Home";
 import MultipleStates from "./Components/MultipleStates";
 import PropsClasscomp from "./Components/PropsClasscomp";
 import PropsinFunctioncomp from "./Components/PropsinFunctioncomp";
 import States from "./Components/States";
 import StatesinClasscomp from "./Components/StatesinClasscomp";
 import TodoList from "./Components/TodoList";
+import Todos from "./Components/Todos";
+import UseCallbacks from "./Components/UseCallbacks";
 import UseContexthooks from "./Components/UseContexthooks";
 import UseMemoHooks from "./Components/UseMemoHooks";
 import UseReducerhooks from "./Components/UseReducerhooks";
@@ -64,7 +67,9 @@ function App() {
       {/* <TodoList /> */}
       {/* <UseReducerhooks /> */}
       {/* <Usereducer /> */}
-      <Usereference />
+      {/* <Usereference /> */}
+      {/* <UseCallbacks /> */}
+      <Home />
     </div>
   );
 }
