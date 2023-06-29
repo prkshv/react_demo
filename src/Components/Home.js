@@ -8,7 +8,7 @@ const Home = () => {
     <>
       {data &&
         data.map((item) => {
-          return <p key={item.id}>{item.title}</p>;
+          return <p key={item.id}>Post: {item.title}</p>;
         })}
     </>
   );

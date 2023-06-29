@@ -74,3 +74,93 @@ all the packages which are used in creating project.
 If new package installed. it is stored in this file
 
 subpackages needed to develop the main package mentioned in package.json
+
+Component: core building block of react
+basically they are pages
+reusable structure
+Components provide meta data about data
+
+types: functional and class Components
+class Components are outdated
+
+functional Component:
+simple js function
+
+when creating Component give first letter in upper case
+
+jsx: xml content + js 
+
+import react if you want to use the funcationality of react in any file
+
+8th June 23
+we use render method with class Components
+
+render: redirects the page
+
+app.js all Components are in <div> because it is considered as single element in react
+
+we can send class Component through functional Component and vice versa
+
+<></> fragment or blank
+
+functional components is called stateless component
+class component is called statefull component
+
+difference between functional component and class component
+
+functional component:
+simple functions
+use functions component as much as possible
+this keyword is not used
+solution without using state
+mainly responsible for UI
+stateless/dumb/presentational component
+
+class component:
+more feature rich
+maintain their own private data
+complex ui logic
+it uses the oops concepts
+provide lifecycle hooks
+stateful/smart/container
+
+jsx:
+extension of javascript
+makes react code simple and elegant
+allows to write html in react by converting into react component
+
+component: provide metadata/data about data
+state: continuously changing vlaues
+hooks: additional info about funcational component
+provide lifecycle of the component
+
+RSF to create component template
+
+props: variables,
+properties,
+type of object,
+similar to html attributes
+
+13 June 23
+props are read only
+state changes. once change component re-renders
+
+props:
+read only
+immutable
+allows to pass data from one component to other component as an argument
+props can be accessed by child component
+props are used to communicate between Components
+stateless components can have props (internal state:stateful)
+props make component reusable
+props are external and controlled by whatever render the component
+
+state:
+state changes can be asynchronous
+state mutable
+state holds information about component
+state can't be accessed by child component
+state can be used for rendering dynamic changes with the component
+stateless component cannot have state
+
+15 june 23

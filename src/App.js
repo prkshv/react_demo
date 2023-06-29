@@ -69,7 +69,7 @@ function App() {
       {/* <Usereducer /> */}
       {/* <Usereference /> */}
       {/* <UseCallbacks /> */}
-      <Home />
+      {/* <Home /> */}
     </div>
   );
 }
