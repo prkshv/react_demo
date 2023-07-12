@@ -4,6 +4,7 @@ import Basicform from "./Components/Basicform";
 import BasicformValidation from "./Components/BasicformValidation";
 import { Bootstrap } from "./Components/Bootstrap";
 import Classcomponentlifecycle from "./Components/Classcomponentlifecycle";
+import Clickincrease from "./Components/Clickincrease";
 import Conditionaloperator from "./Components/Conditionaloperator";
 import Cssimplementation from "./Components/Cssimplementation";
 import Demo, { Demo2, Demo3 } from "./Components/Demo";
@@ -12,7 +13,9 @@ import Fragments from "./Components/Fragments";
 import Getinputvalue from "./Components/Getinputvalue";
 import Hello from "./Components/Hello";
 import Hideshowtoggle from "./Components/Hide&show&toggle";
+import HigherOrderComponent from "./Components/Higher-order-component";
 import Home from "./Components/Home";
+import Hoverincrease from "./Components/Hoverincrease";
 import MultipleStates from "./Components/MultipleStates";
 import PropsClasscomp from "./Components/PropsClasscomp";
 import PropsinFunctioncomp from "./Components/PropsinFunctioncomp";
@@ -20,6 +23,7 @@ import States from "./Components/States";
 import StatesinClasscomp from "./Components/StatesinClasscomp";
 import TodoList from "./Components/TodoList";
 import Todos from "./Components/Todos";
+import UpdateComponent from "./Components/UpdateComponent";
 import UseCallbacks from "./Components/UseCallbacks";
 import UseContexthooks from "./Components/UseContexthooks";
 import UseMemoHooks from "./Components/UseMemoHooks";
@@ -70,6 +74,10 @@ function App() {
       {/* <Usereference /> */}
       {/* <UseCallbacks /> */}
       {/* <Home /> */}
+      {/* <Hoverincrease /> */}
+      <Clickincrease />
+      {/* <HigherOrderComponent /> */}
+      {/* <UpdateComponent /> */}
     </div>
   );
 }
